@@ -502,6 +502,59 @@
             <use href="./images/icon/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form>
+          <div class="modal-field">
+            <label for="user-name"><span class="label-text">Ім'я</span></label>
+            <input
+              type="text"
+              class="modal-input"
+              name="user-name"
+              placeholder=""
+              required
+              id="user-name"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-tel"
+              ><span class="label-text">Телефон</span></label
+            >
+            <input
+              type="tel"
+              class="modal-input"
+              name="user-tel"
+              placeholder=""
+              required
+              id="user-tel"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-email"
+              ><span class="label-text">Пошта</span></label
+            >
+            <input
+              type="email"
+              class="modal-input"
+              name="user-email"
+              placeholder=""
+              required
+              id="user-email"
+            />
+          </div>
+          <div class="modal-field">
+            <label for="user-text"
+              ><span class="label-text">Коментар</span></label
+            >
+            <textarea
+              name="user-text"
+              id="user-text"
+              class="modal-comment"
+              placeholder="Введіть текст"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="send-btn btn">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
