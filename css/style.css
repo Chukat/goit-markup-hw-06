@@ -866,14 +866,14 @@ modal-comment::placeholder {
   width: 100%;
   height: 120px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
   padding: 12px 16px;
 }
 
-.modal-field:nth-last-child {
+.modal-field:nth-child(4) {
   margin-bottom: 20px;
 }
 
